@@ -86,7 +86,7 @@ const getUserNames = users => {
   // ================Task-10
 
   const getSortedUniqueSkills = users => {
-    eturn users
+    return users
     .reduce((totalSkills, user) => {
       user.skills.forEach(oneSkill =>
         totalSkills.includes(oneSkill) ? '' : totalSkills.push(oneSkill),
@@ -98,4 +98,4 @@ const getUserNames = users => {
   
   console.log(getSortedUniqueSkills(users));
   // [ 'adipisicing', 'amet', 'anim', 'commodo', 'culpa', 'elit', 'ex', 'ipsum', 'irure', 'laborum', 'lorem', 'mollit', 'non', 'nostrud', 'nulla', 'proident', 'tempor', 'velit', 'veniam' ]
-  © 2020 GitHub, Inc.
+  
